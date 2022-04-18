@@ -1,21 +1,15 @@
-# finalhomework
+# 甜樂希Lovely sweet 手工創意糖霜餅乾
 
-> vuehomework
+> 這是一份前端電商網站練習
 
-## Build Setup
+## 前台畫面
 
-``` bash
-# install dependencies
-npm install
+![](https://i.imgur.com/06BgnG4.png)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 後台畫面
 
-# build for production with minification
-npm run build
+![](https://i.imgur.com/HJfRDBP.png)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Demo
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[https://stven1124.github.io/Lovely-sweet-Vue-cli-2/dist/index.html#/index](https://stven1124.github.io/Lovely-sweet-Vue-cli-2/dist/index.html#/index "https://stven1124.github.io/Lovely-sweet-Vue-cli-2/dist/index.html#/index")
