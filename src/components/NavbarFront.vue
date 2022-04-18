@@ -118,6 +118,9 @@ export default {
       const vm = this;
       this.$http.post(api, vm.user).then(response => {
         if (response.data.success) {
+          const { token, expired } = response.data;
+          console.log(token, expired);
+          document.cookie = `hexToken=${token};expires=${new Date(expired)};`;
           $("#loginModal").modal("hide");
           vm.$router.push("/admin/products");
           console.log(response.data);
